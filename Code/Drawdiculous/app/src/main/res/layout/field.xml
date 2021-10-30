@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/player_username"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="8dp"
+            android:text="@string/players"
+            android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="0dp"
+        android:layout_height="40sp"
+        android:layout_weight="1"
+        android:background="@android:drawable/ic_delete"
+        android:onClick="onKickClick" />
+    </LinearLayout>

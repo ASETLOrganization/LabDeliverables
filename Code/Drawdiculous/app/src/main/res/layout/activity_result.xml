@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context=".app.activity.ResultActivity">
+
+    <TextView
+        android:gravity="top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leaderboard"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:id="@+id/leaderboard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_below="@id/leaderboard"
+        android:layout_marginTop="60dp"
+        android:textColor="#5DBD61"
+        android:textSize="30sp"
+        android:id="@+id/p1" />
+
+    <ImageView
+        android:id="@+id/trophy"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:src="@drawable/trophy"
+        android:layout_toEndOf="@id/s1"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/leaderboard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:id="@+id/s1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_below="@id/s1"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:id="@+id/p2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p2"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:id="@+id/s2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_below="@id/p2"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:id="@+id/p3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p3"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:id="@+id/s3" />
+
+    <Button
+        android:id="@+id/button_result_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/purple_500"
+        android:paddingHorizontal="30dp"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

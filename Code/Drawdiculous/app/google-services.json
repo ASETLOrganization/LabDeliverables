@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "194312086009",
+    "firebase_url": "https://drawdiculous-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "drawdiculous",
+    "storage_bucket": "drawdiculous.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194312086009:android:27297bcbcdb10c68295d28",
+        "android_client_info": {
+          "package_name": "com.teamluck.drawdiculous"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194312086009-eelv89j519j01l98hd3ei7mvnmmpcpof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0e5Vwe68ifwAlpRuc9DKJCHPvIaNQtRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194312086009-eelv89j519j01l98hd3ei7mvnmmpcpof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

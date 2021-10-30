@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Drawdiculous</string>
+    <string name="drawdiculous">Drawdiculous</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_name">User Name</string>
+    <string name="phone_no">Phone No</string>
+    <string name="register">Register</string>
+
+    <string name="play_game">Let\'s Play!</string>
+    <string name="create_game">Create a New Game</string>
+    <string name="join_game">Join an Existing Game</string>
+    <string name="join_random_game">Join a Random Game</string>
+    <string name="join_room">Join Game</string>
+    <string name="room_id">Room ID</string>
+    <string name="create_room">Create Game</string>
+    <string name="create_private_game">Create a Private Game</string>
+    <string name="create_public_game">Create a Public Game</string>
+    <string name="start_game">Start Game</string>
+    <string name="players">PLAYERS</string>
+    <string name="regiSuccess">Registration successful</string>
+    <string name="regiFail">Registration failed due to unknown error</string>
+    <string name="regiFailEmailExist">Registration failed, email is already in use</string>
+    <string name="regiFailWeakPw">Registration failed, please use a stronger password</string>
+    <string name="loginSuccess">Login Successful</string>
+    <string name="loginFailUnknown">Login Failed</string>
+    <string name="loginFailUser">User does not exist</string>
+    <string name="loginFailPw">Wrong password</string>
+
+    <string name="unknownResponse">Received unknown response from server</string>
+    <string name="joinStatusForbiddenResponse">You are forbidden to join this room</string>
+    <string name="joinStatusNotFoundResponse">Room not found</string>
+    <string name="playerNotFoundResponse">User not found</string>
+    <string name="playerForbiddenResponse">Player action forbidden</string>
+
+    <string name="app_option_menu_brush">Brush</string>
+    <string name="app_option_menu_colors">Color</string>
+    <string name="app_option_menu_draft">Eraser</string>
+    <string name="app_option_menu_bin">Bin</string>
+    <string name="app_option_menu_color_black">Black</string>
+    <string name="app_option_menu_color_green">Green</string>
+    <string name="app_option_menu_color_blue">Blue</string>
+    <string name="app_option_menu_color_red">Red</string>
+    <string name="app_option_menu_color_text">Select Color</string>
+    <string name="app_option_menu_brush_text">Select Brush</string>
+    <string name="app_option_menu_brush_one_pt">1 pt</string>
+    <string name="app_option_menu_brush_two_pt">2 pt</string>
+    <string name="app_option_menu_brush_four_pt">4 pt</string>
+    <string name="app_option_menu_brush_six_pt">6 pt</string>
+    <string name="app_option_menu_brush_eight_pt">8 pt</string>
+    <string name="app_option_menu_brush_ten_pt">10 pt</string>
+    <string name="app_option_menu_color_white">White</string>
+    <string name="leave_room">Leave room</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_prompt">A new password has been sent to your email</string>
+    <string name="recover">Recover</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="back">Back</string>
+
+</resources>

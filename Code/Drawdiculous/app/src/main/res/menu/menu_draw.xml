@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/IdBrush"
+        android:icon="@drawable/paintbrush"
+        android:title="@string/app_option_menu_brush"
+        android:visible="true"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/group_brush"
+                android:checkableBehavior="single">
+                <item
+                    android:checkable="false"
+                    android:checked="false"
+                    android:title="@string/app_option_menu_brush_text" />
+                <item
+                    android:id="@+id/IdBrushOne"
+                    android:checked="true"
+                    android:onClick="onBrushItemClick"
+                    android:title="@string/app_option_menu_brush_one_pt" />
+                <item
+                    android:id="@+id/IdBrushTwo"
+                    android:onClick="onBrushItemClick"
+                    android:title="@string/app_option_menu_brush_two_pt" />
+                <item
+                    android:id="@+id/IdBrushFour"
+                    android:onClick="onBrushItemClick"
+                    android:title="@string/app_option_menu_brush_four_pt" />
+                <item
+                    android:id="@+id/IdBrushSix"
+                    android:onClick="onBrushItemClick"
+                    android:title="@string/app_option_menu_brush_six_pt" />
+                <item
+                    android:id="@+id/IdBrushEight"
+                    android:onClick="onBrushItemClick"
+                    android:title="@string/app_option_menu_brush_eight_pt" />
+                <item
+                    android:id="@+id/IdBrushTen"
+                    android:onClick="onBrushItemClick"
+                    android:title="@string/app_option_menu_brush_ten_pt" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/IdColors"
+        android:icon="@drawable/ic_color_lens"
+        android:title="@string/app_option_menu_colors"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/group_colors"
+                android:checkableBehavior="single">
+                <item
+                    android:checkable="false"
+                    android:checked="false"
+                    android:title="@string/app_option_menu_color_text" />
+                <item
+                    android:id="@+id/IdColorBlack"
+                    android:checked="true"
+                    android:onClick="onColorItemClick"
+                    android:title="@string/app_option_menu_color_black" />
+                <item
+                    android:id="@+id/IdColorGreen"
+                    android:onClick="onColorItemClick"
+                    android:title="@string/app_option_menu_color_green" />
+                <item
+                    android:id="@+id/IdColorBlue"
+                    android:onClick="onColorItemClick"
+                    android:title="@string/app_option_menu_color_blue" />
+                <item
+                    android:id="@+id/IdColorRed"
+                    android:onClick="onColorItemClick"
+                    android:title="@string/app_option_menu_color_red" />
+                <item
+                    android:id="@+id/IdColorWhite"
+                    android:onClick="onColorItemClick"
+                    android:title="@string/app_option_menu_color_white" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/IdDraft"
+        android:icon="@drawable/eraser"
+        android:title="@string/app_option_menu_draft"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/group_draft"
+                android:checkableBehavior="single">
+                <item
+                    android:checkable="false"
+                    android:checked="false"
+                    android:title="@string/app_option_menu_brush_text" />
+                <item
+                    android:id="@+id/IdEraserOne"
+                    android:checked="true"
+                    android:onClick="onEraserItemClick"
+                    android:title="@string/app_option_menu_brush_one_pt" />
+                <item
+                    android:id="@+id/IdEraserTwo"
+                    android:onClick="onEraserItemClick"
+                    android:title="@string/app_option_menu_brush_two_pt" />
+                <item
+                    android:id="@+id/IdEraserFour"
+                    android:onClick="onEraserItemClick"
+                    android:title="@string/app_option_menu_brush_four_pt" />
+                <item
+                    android:id="@+id/IdEraserSix"
+                    android:onClick="onEraserItemClick"
+                    android:title="@string/app_option_menu_brush_six_pt" />
+                <item
+                    android:id="@+id/IdEraserEight"
+                    android:onClick="onEraserItemClick"
+                    android:title="@string/app_option_menu_brush_eight_pt" />
+                <item
+                    android:id="@+id/IdEraserTen"
+                    android:onClick="onEraserItemClick"
+                    android:title="@string/app_option_menu_brush_ten_pt" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/IdBin"
+        android:icon="@drawable/rubbishbin"
+        android:title="@string/app_option_menu_bin"
+        android:onClick="onBinItemClick"
+        app:showAsAction="always">
+    </item>
+</menu>
